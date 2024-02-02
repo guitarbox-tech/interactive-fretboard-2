@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+table {
+  position: relative;
+  z-index: 0;
+}
+
+th {
+  transform: translate(0%, 50%);
+  font-size: 13px;
+}
+
+tr {
+  height: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.nota {
+  transform: translate(0%, 80%);
+  background: green;
+  border-radius: 35%;
+  text-align: center;
+  z-index: 1; /* set higher z-index value */
+  position: relative;
+  width: 30px;
+  margin: auto;
+  color: white;
+  opacity: 0.9;
+}
+
+.single-dot {
+  background: grey;
+  position: absolute;
+  z-index: 0;
+  border-radius: 50%;
+  transform: translate(115%, -55%);
+  width: 20px;
+  color: grey;
+  
+}
+
+.single-dot-L {
+  background: grey;
+  position: absolute;
+  z-index: 0;
+  border-radius: 50%;
+  transform: translate(50%, -55%);
+  width: 20px;
+  color: grey;
+  
+}
+
+.single-dot-R {
+  background: grey;
+  position: absolute;
+  z-index: 0;
+  border-radius: 50%;
+  transform: translate(180%, -55%);
+  width: 20px;
+  color: grey;
+  
+}
+
+.fret-shadow {
+  background: #dce3de;
+  position: absolute;
+  z-index: 0;
+  width: 65px;
+  color: #dce3de;
+  transform: translate(0, -84%);
+  height: 27px;
+}
